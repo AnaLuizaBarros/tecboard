@@ -14,14 +14,16 @@ The main slogan summarizes the tool's goal: **"Keep an eye on what matters"**.
 
 ## 📌 Table of Contents
 
-- [Features](#-features)
-- [Design and Interface](#-design-and-interface)
-- [Technologies Used](#-technologies-used)
-- [Project Structure](#-project-structure)
-- [How to Run the Project](#-how-to-run-the-project)
-- [How to Contribute](#-how-to-contribute)
-- [Credits and Learnings](#-credits-and-learnings)
-- [License](#-license)
+- [Tecboard 📊 — Real-Time Monitoring](#tecboard---real-time-monitoring)
+  - [📌 Table of Contents](#-table-of-contents)
+  - [⚙️ Features](#️-features)
+  - [🎨 Design and Interface](#-design-and-interface)
+  - [🛠️ Technologies Used](#️-technologies-used)
+  - [📂 Project Structure](#-project-structure)
+  - [🚀 How to Run the Project](#-how-to-run-the-project)
+- [Or simply double-click the 'index.html' file using your file explorer.](#or-simply-double-click-the-indexhtml-file-using-your-file-explorer)
+  - [🎓 Credits and Learnings](#-credits-and-learnings)
+  - [📄 License](#-license)
 
 ---
 
@@ -43,8 +45,6 @@ The page has a clean and straightforward structure:
    - Clear description of real-time monitoring and smart alerts.
    - Conversion link/button (*Call to Action*).
    - High-resolution illustrative image featuring overlapping smartphones with shadow effects.
-
-*Tip: You can replace this line with a screenshot of your finished page!*
 
 ![Tecboard Preview](img/celulares-sobrepostos-desktop.png)
 
@@ -92,8 +92,11 @@ Navigate to the created folder and open the index.html file in any web browser (
 
 Bash
 cd REPOSITORY_NAME
+
 # Or simply double-click the 'index.html' file using your file explorer.
+
 💡 Pro Tip: If you are using VS Code, install the Live Server extension. Just right-click on index.html and select "Open with Live Server" to see your code changes reflect automatically in the browser without needing to refresh the page.
+
 ---
 
 ## 🎓 Credits and Learnings
