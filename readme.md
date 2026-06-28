@@ -46,26 +46,23 @@ A página possui uma estrutura limpa e direta:
    - Imagem ilustrativa em alta resolução representando smartphones sobrepostos com efeitos de sombra.
 
 ## 🛠️ Tecnologias Utilizadas
+
 O projeto foi construído utilizando as seguintes tecnologias e recursos:
 
-HTML5: Estruturação semântica de tags (<header>, <main>, <section>).
-
-CSS3: Estilização, posicionamento e efeitos visuais (importado via css/style.css).
-
-Google Fonts: Fontes personalizadas integradas diretamente para elevar o nível do design:
-
-Poppins: Para textos corridos e descrições (leitura limpa e fluida).
-
-Unbounded: Para títulos e destaques (estilo moderno e tecnológico).
-
-Favicon Personalizado: Ícone em formato SVG (favicon-branco.svg) configurado na aba do navegador.
+- **HTML5:** Estruturação semântica de tags (`<header>`, `<main>`, `<section>`).
+- **CSS3:** Estilização, posicionamento e efeitos visuais (importado via `css/style.css`).
+- **Google Fonts:** Fontes personalizadas integradas diretamente para elevar o nível do design:
+  - **Poppins:** Para textos corridos e descrições (leitura limpa e fluida).
+  - **Unbounded:** Para títulos e destaques (estilo moderno e tecnológico).
+- **Favicon Personalizado:** Ícone em formato SVG (`favicon-branco.svg`) configurado na aba do navegador.
 
 ---
 
 ## 📂 Estrutura do Projeto
+
 Abaixo está a organização dos arquivos do repositório:
 
-Bash
+```text
 .
 ├── index.html               # Página principal do projeto
 ├── favicon-branco.svg       # Ícone da aba do navegador
