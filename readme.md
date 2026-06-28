@@ -21,7 +21,9 @@ The main slogan summarizes the tool's goal: **"Keep an eye on what matters"**.
   - [🛠️ Technologies Used](#️-technologies-used)
   - [📂 Project Structure](#-project-structure)
   - [🚀 How to Run the Project](#-how-to-run-the-project)
+    - [Step 1: Clone the repository](#step-1-clone-the-repository)
 - [Or simply double-click the 'index.html' file using your file explorer.](#or-simply-double-click-the-indexhtml-file-using-your-file-explorer)
+  - [💡 Pro Tip: If you are using VS Code, install the Live Server extension. Just right-click on index.html and select "Open with Live Server" to see your code changes reflect automatically in the browser without needing to refresh the page.](#-pro-tip-if-you-are-using-vs-code-install-the-live-server-extension-just-right-click-on-indexhtml-and-select-open-with-live-server-to-see-your-code-changes-reflect-automatically-in-the-browser-without-needing-to-refresh-the-page)
   - [🎓 Credits and Learnings](#-credits-and-learnings)
   - [📄 License](#-license)
 
@@ -80,23 +82,22 @@ Below is the file organization of the repository:
 ---
 
 ## 🚀 How to Run the Project
+
 Since this repository contains only static files (essential Front-end), you don't need to install any heavy dependencies.
 
-Step 1: Clone the repository
+### Step 1: Clone the repository
 Open your terminal and run the following command:
 
-Bash
+```bash
 git clone [https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git)
+```
 Step 2: Open the project
 Navigate to the created folder and open the index.html file in any web browser (Chrome, Edge, Firefox, Safari):
 
-Bash
 cd REPOSITORY_NAME
-
 # Or simply double-click the 'index.html' file using your file explorer.
 
 💡 Pro Tip: If you are using VS Code, install the Live Server extension. Just right-click on index.html and select "Open with Live Server" to see your code changes reflect automatically in the browser without needing to refresh the page.
-
 ---
 
 ## 🎓 Credits and Learnings
