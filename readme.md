@@ -22,6 +22,7 @@ The main slogan summarizes the tool's goal: **"Keep an eye on what matters"**.
   - [📂 Project Structure](#-project-structure)
   - [🚀 How to Run the Project](#-how-to-run-the-project)
     - [Step 1: Clone the repository](#step-1-clone-the-repository)
+    - [Step 2: Open the project](#step-2-open-the-project)
   - [🎓 Credits and Learnings](#-credits-and-learnings)
   - [📄 License](#-license)
 
@@ -89,7 +90,8 @@ Open your terminal and run the following command:
 ```bash
 git clone [https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git)
 ```
-Step 2: Open the project
+
+### Step 2: Open the project
 Navigate to the created folder and open the `index.html` file in any web browser (Chrome, Edge, Firefox, Safari):
 
 ```bash
