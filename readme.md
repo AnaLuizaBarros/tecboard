@@ -1,4 +1,4 @@
-# Tecboard 📊 — Monitoramento em Tempo Real
+# Tecboard 📊 — Real-Time Monitoring
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
@@ -6,101 +6,106 @@
   <img src="https://img.shields.io/badge/Alura-051D3D?style=for-the-badge&logo=alura&logoColor=10F59B" alt="Alura Badge">
 </p>
 
-O **Tecboard** é uma *landing page* moderna e responsiva desenvolvida como parte de um projeto prático da **Alura**. A aplicação promove uma plataforma fictícia de monitoramento de infraestrutura em tempo real, com foco em alertas inteligentes e alta disponibilidade para sistemas.
+**Tecboard** is a modern and responsive landing page developed as part of a practical project from **Alura**. The application promotes a fictional real-time infrastructure monitoring platform, focusing on smart alerts and high availability for systems.
 
-O slogan principal resume o objetivo da ferramenta: **"Fique de olho no que importa"**.
-
----
-
-## 📌 Índice
-
-- [Tecboard 📊 — Monitoramento em Tempo Real](#tecboard---monitoramento-em-tempo-real)
-  - [📌 Índice](#-índice)
-  - [⚙️ Funcionalidades](#️-funcionalidades)
-  - [🎨 Design e Interface](#-design-e-interface)
-  - [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-  - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-  - [🚀 Como Executar o Projeto](#-como-executar-o-projeto)
-- [Ou simplesmente dê um duplo clique no arquivo 'index.html' através do gerenciador de arquivos.](#ou-simplesmente-dê-um-duplo-clique-no-arquivo-indexhtml-através-do-gerenciador-de-arquivos)
-  - [🎓 Créditos e Aprendizados](#-créditos-e-aprendizados)
-  - [📄 Licença](#-licença)
+The main slogan summarizes the tool's goal: **"Keep an eye on what matters"**.
 
 ---
 
-## ⚙️ Funcionalidades
+## 📌 Table of Contents
 
-- **Design Responsivo:** Preparado para exibição fluida em dispositivos móveis e desktops.
-- **Identidade Visual Moderna:** Uso de tipografia refinada e paleta de cores escura com contraste em branco e tons roxos/neon.
-- **Chamada para Ação (CTA):** Botão direcionado para testar a versão demo do sistema.
-- **Otimização de Performance:** Pré-conexão com fontes externas (Google Fonts) para um carregamento mais veloz.
-
----
-
-## 🎨 Design e Interface
-
-A página possui uma estrutura limpa e direta:
-1. **Cabeçalho (Header):** Contém o logotipo oficial do Tecboard em versão branca.
-2. **Seção Principal (Main/Section):** - Título de forte impacto com destaque visual (`<span>`).
-   - Descrição clara sobre monitoramento em tempo real e alertas inteligentes.
-   - Link/Botão de conversão (*Call to Action*).
-   - Imagem ilustrativa em alta resolução representando smartphones sobrepostos com efeitos de sombra.
-
-## 🛠️ Tecnologias Utilizadas
-
-O projeto foi construído utilizando as seguintes tecnologias e recursos:
-
-- **HTML5:** Estruturação semântica de tags (`<header>`, `<main>`, `<section>`).
-- **CSS3:** Estilização, posicionamento e efeitos visuais (importado via `css/style.css`).
-- **Google Fonts:** Fontes personalizadas integradas diretamente para elevar o nível do design:
-  - **Poppins:** Para textos corridos e descrições (leitura limpa e fluida).
-  - **Unbounded:** Para títulos e destaques (estilo moderno e tecnológico).
-- **Favicon Personalizado:** Ícone em formato SVG (`favicon-branco.svg`) configurado na aba do navegador.
+- [Features](#-features)
+- [Design and Interface](#-design-and-interface)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [How to Run the Project](#-how-to-run-the-project)
+- [How to Contribute](#-how-to-contribute)
+- [Credits and Learnings](#-credits-and-learnings)
+- [License](#-license)
 
 ---
 
-## 📂 Estrutura do Projeto
+## ⚙️ Features
 
-Abaixo está a organização dos arquivos do repositório:
+- **Responsive Design:** Ready for fluid display on mobile devices and desktops.
+- **Modern Visual Identity:** Refined typography and a dark color palette with high contrast in white and neon/purple tones.
+- **Call to Action (CTA):** A dedicated button directing users to test the demo version of the system.
+- **Performance Optimization:** Pre-connection to external fonts (Google Fonts) for faster loading times.
+
+---
+
+## 🎨 Design and Interface
+
+The page has a clean and straightforward structure:
+1. **Header:** Contains the official Tecboard logo in its white version.
+2. **Main Section:** 
+   - High-impact title with visual emphasis (`<span>`).
+   - Clear description of real-time monitoring and smart alerts.
+   - Conversion link/button (*Call to Action*).
+   - High-resolution illustrative image featuring overlapping smartphones with shadow effects.
+
+*Tip: You can replace this line with a screenshot of your finished page!*
+
+![Tecboard Preview](img/celulares-sobrepostos-desktop.png)
+
+---
+
+## 🛠️ Technologies Used
+
+The project was built using the following technologies and resources:
+
+- **HTML5:** Semantic structuring of tags (`<header>`, `<main>`, `<section>`).
+- **CSS3:** Styling, positioning, and visual effects (imported via `css/style.css`).
+- **Google Fonts:** Custom fonts integrated directly to elevate the design level:
+  - **Poppins:** For body text and descriptions (clean and fluid reading).
+  - **Unbounded:** For titles and highlights (modern and technological style).
+- **Custom Favicon:** SVG format icon (`favicon-branco.svg`) configured for the browser tab.
+
+---
+
+## 📂 Project Structure
+
+Below is the file organization of the repository:
 
 ```text
 .
-├── index.html               # Página principal do projeto
-├── favicon-branco.svg       # Ícone da aba do navegador
+├── index.html               # Main project page
+├── favicon-branco.svg       # Browser tab icon
 ├── css/
-│   └── style.css            # Arquivo de estilos CSS
+│   └── style.css            # CSS stylesheet
 └── img/
-    ├── Logo-branco.png      # Logotipo do cabeçalho
-    └── celulares-sobrepostos-desktop.png # Imagem principal de destaque
+    ├── Logo-branco.png      # Header logo
+    └── celulares-sobrepostos-desktop.png # Main highlight image
+```
 ---
 
-## 🚀 Como Executar o Projeto
-Como este repositório contém apenas arquivos estáticos (Front-end essencial), você não precisa instalar nenhuma dependência pesada.
+## 🚀 How to Run the Project
+Since this repository contains only static files (essential Front-end), you don't need to install any heavy dependencies.
 
-Passo 1: Clonar o repositório
-Abra o seu terminal e execute o comando abaixo:
+Step 1: Clone the repository
+Open your terminal and run the following command:
 
 Bash
-git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
-Passo 2: Abrir o projeto
-Navegue até a pasta criada e abra o arquivo index.html em qualquer navegador web (Chrome, Edge, Firefox, Safari):
+git clone [https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git)
+Step 2: Open the project
+Navigate to the created folder and open the index.html file in any web browser (Chrome, Edge, Firefox, Safari):
 
 Bash
-cd NOME_DO_REPOSITORIO
-# Ou simplesmente dê um duplo clique no arquivo 'index.html' através do gerenciador de arquivos.
-💡 Dica de Ouro: Se estiver utilizando o VS Code, instale a extensão Live Server. Basta clicar com o botão direito no index.html e selecionar “Open with Live Server” para ver as alterações no código refletirem no navegador automaticamente sem precisar atualizar a página.
+cd REPOSITORY_NAME
+# Or simply double-click the 'index.html' file using your file explorer.
+💡 Pro Tip: If you are using VS Code, install the Live Server extension. Just right-click on index.html and select "Open with Live Server" to see your code changes reflect automatically in the browser without needing to refresh the page.
+---
+
+## 🎓 Credits and Learnings
+This project was developed based on the Front-end courses by Alura, one of the largest technology platforms in Brazil. During development, it was possible to consolidate concepts such as:
+
+The importance of semantics in HTML5.
+
+File organization and relative paths for images/styles.
+
+Integration and optimization of external fonts via Google Fonts.
 
 ---
 
-##  🎓 Créditos e Aprendizados
-Este projeto foi desenvolvido com base nos cursos de Front-end da Alura, uma das maiores plataformas de tecnologia do Brasil. Durante o desenvolvimento, foi possível consolidar conceitos como:
-
-Importância da semântica no HTML5.
-
-Organização de arquivos e caminhos relativos para imagens/estilos.
-
-Integração e otimização de fontes externas via Google Fonts.
-
----
-
-## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes, se aplicável.
+## 📄 License
+This project is under the MIT license. See the LICENSE file for more details, if applicable.
